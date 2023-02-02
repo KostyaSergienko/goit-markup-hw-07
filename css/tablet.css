@@ -1,0 +1,165 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .header-lists,
+    .header-info {
+        display: flex;
+    }
+
+    .heder-burger{
+        display: none;
+    }
+
+    .header-navigation {
+        display: flex;
+         align-items: center;
+    
+    }
+
+    .header-lists {
+        display: flex;
+        gap: 40px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+        
+    .header-list-item {
+        position: relative;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--accent-text-color);
+        letter-spacing: 0.02em;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+        
+    .header-list-item:hover:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-color: var(--accent-color);
+        left: 0;
+        bottom: -3.5px;
+        border-radius: 2px;
+    }
+        
+    .active::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        background-color: var(--accent-color);
+        left: 0;
+        bottom: -3.5px;
+        border-radius: 2px;
+        
+    }
+        
+    .header-list-item.active {
+        color: var(--accent-color);
+    }
+        
+    .header-list-item:hover,
+    .header-list-item:focus {
+        color: var(--accent-color);
+    }
+        
+        
+    .header-info {
+        flex-direction: column;
+        display: flex;
+        gap: 4px;
+    }
+            
+    .header-mailto, .header-telefone{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.3;
+        color: var(--primary-text-color);
+        letter-spacing: 0.02em;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+            
+        
+        /*=========================HERO =====================*/
+    .hero {
+        padding-top: 112px;
+        padding-bottom: 112px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                            rgba(46, 47, 66, 0.7)), url(../images/img/hero-tab.jpg);
+    }
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img/hero-tad2x.jpg);
+    }
+}
+    .hero-title{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1;          
+        max-width: 496px;
+    }
+        /* ==========================SECTIO TWO================ */
+    .direction-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:72px 24px;
+    }
+
+    .direction-item{
+        width: 356px;
+    }
+    /* ===========================FOOETR============= */
+    .footer-cont {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer-link{
+        display: block;
+    }
+
+    .footer-logo{
+        margin-right: 24px;
+        margin-left: 72px;
+
+    }
+
+    .footer-soc{
+        display: block;
+    }
+
+    .footer-soc-text{
+        display: block;
+    }
+
+    .footer-subscribe {
+        flex: 1;
+    }
+
+    .footer-soc-subscribe{
+        margin-left: 72px;
+        justify-content:flex-start;
+    }
+    
+    .subscribe-wrap {
+        flex-direction: row;
+        justify-content: left;
+        align-items: baseline;
+        margin-left: 72px;
+    }
+
+    .subscribe-input{
+        max-width: 264px;
+        margin-right: 24px;
+    }
+
+}

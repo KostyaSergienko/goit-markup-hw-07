@@ -1,0 +1,124 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1158px;
+        width: 100%;
+    }
+
+    .header-page>.container {
+        justify-content: flex-start;
+        gap: 76px;
+    }
+
+    .header-info {
+        flex-direction: row;
+        flex: 1;
+        justify-content: flex-end;
+        gap: 40px;
+    }
+
+    .header-mailto,.header-telefone {
+            font-size: 16px;
+            line-height: 1.5;        
+    }
+/*=========================HERO ======================*/
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), url(../images/img/hero-desctop.jpg);
+    
+    }
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img/hero-desctop2x\ \(1\).jpg);
+    }
+}
+/* ==========================SECTIO TWO================ */
+        .direction-list {
+            gap: 24px;
+        }
+    
+        .direction-item {
+    
+            width: 264px;
+        }
+
+        .direction-section {
+            display: block;
+        }
+
+        .direction-section {
+            content: '';
+            height: 112px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-color: var(--accent-background-color);
+            background-position: center;
+            border-radius: 4px;
+            padding: 24px 100px;
+            margin-bottom: 8px;
+        }
+
+        .direction-direction{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            text-align:left;
+            margin-bottom: 8px;
+        }
+
+        .direction-text{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+/* ===========================SECTION THRE============= */
+.work-title {
+    text-align: center;
+    padding-bottom: 120x;
+    margin-bottom: 72px;
+}
+
+.work-list {
+    display: flex;
+
+}
+
+.work-item {
+    margin-right: 24px;
+}
+.work{
+    display: block;
+    margin-bottom: 120px;
+}
+/* ===========================SECTION FIVE============= */
+  .customers {
+      padding-top: 96px;
+      padding-bottom: 96px;
+  }
+
+  .customers-list {
+     
+      column-gap: 24px;
+  }
+
+  .customers-item {
+      width: 168px;
+  }
+
+  .footer-subscribe{
+    margin-left: 80px;
+  }
+  /* ===========================FOOETR============= */
+  .footer-logo{
+    margin-left:0;
+    margin-right: 120px;
+  }
+  .footer-subscribe {
+      margin-left: 0;
+  }
+}

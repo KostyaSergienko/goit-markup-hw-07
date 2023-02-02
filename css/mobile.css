@@ -1,0 +1,142 @@
+
+@media screen and (min-width: 320px) {
+    .container {
+        max-width: 458px;
+        width: 100%;
+    }
+
+    .header-page>.container {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-lists, .header-info {
+        display:none;
+    }
+/* ========================HEDER====================== */
+    .heder-burger {
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        line-height: 0;
+            
+    }
+
+    .icon-burger{
+        fill: #2E2F42;
+
+    }
+/*=========================HERO ======================*/
+    .hero {
+        padding-top: 112px;
+        padding-bottom: 112px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/img/hero-mob.jpg);
+    }
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img/hero-mob2x.jpg);
+    }
+}
+    .hero-title {
+        font-size: 36px;
+        line-height: 1.1;
+        max-width: 320px;
+        margin-bottom: 72px;
+    }
+/* ==========================SECTIO TWO================ */
+    .direction {
+        padding: 96px 0;
+    }
+
+    .direction-section{
+        display: none;
+    }
+
+    .direction-list {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+    }
+
+    .direction-direction {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        color: var(--accent-text-color);
+        text-align: center;
+    }
+
+    .direction-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .work{
+        display: none;
+    }
+/* ===========================SECTION FOUR============= */
+    .tem{
+        padding-top: 96px;
+        padding-bottom: 128px;
+    }
+/* ===========================SECTION FIVE============= */
+    .customers {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .customers-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 72px;
+        column-gap: 16px;
+    }
+
+    .customers-item {
+        width: 190px;
+    }
+
+/* ===========================FOOETR============= */
+    .footer-cont {
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        row-gap: 72px;
+    }
+
+    .footer-link {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-soc{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-soc-text{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .footer-soc-subscribe{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subscribe-wrap{
+        flex-direction: column;
+    }
+
+    .subscribe-input{
+        width: 396px;
+        margin-bottom: 24px;
+    }
+}    
