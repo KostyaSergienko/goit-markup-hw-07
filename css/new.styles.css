@@ -64,6 +64,7 @@ body.body-hidden{
 }
 
 .container {
+    /* width: 100%; */
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -105,6 +106,14 @@ body.body-hidden{
 .studio {
     color: var(--accent-text-color);
     order: 1;
+}
+.header-mailto {
+    color: var(--primary-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-telefone {
+    color: var(--primary-text-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-list-item:hover,
 .header-list-item:focus {
@@ -693,6 +702,8 @@ body.body-hidden{
 }
 
 .input-icon {
+    width: 18px;
+    height: 24px;
     position: absolute;
     left: 16px;
     top: 50%;
@@ -807,6 +818,25 @@ body.body-hidden{
 }
 
 /* ========модальне вікно для телефонів======= */
+
+.mob-meny {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding: 40px 0 40px 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primary-background-color);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.mob-meny > .container{
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
 .mobile-close {
     background-color: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -820,27 +850,16 @@ body.body-hidden{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.mobile-modal {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    padding: 24px;
-    top: 0;
-    left: 0;
-    background-color: var(--primary-background-color);
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+.mob-meny-list{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
 }
 
-.mobail-list {
-    display: grid;
-    row-gap: 40px;
-    margin-bottom: 284px;
-}
-
-.mobail-item {
+.mob-meny-item {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
@@ -849,46 +868,39 @@ body.body-hidden{
     cursor: pointer;
 }
 
-.mobail-item:hover,
-.mobail-item:focus {
+.mob-meny-item:hover,
+.mob-meny-item:focus {
     color: var(--accent-color);
 }
 
-.mobail-info {
-    display: grid;
-    row-gap: 40px;
-    margin-bottom: 48px;
-    min-width: 337px;
-}
-
-.mobail-tel {
+.mob-meny-tel {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.1;
     color: var(--accent-color);
+    display: inline-block;
+    margin-bottom: 40px;
 }
 
-.mobail-mail {
+.mob-meny-mail {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #434455;
 }
 
-.mobail-soc-listm {
-    margin-bottom: 32px;
-    display: inline-flex;
+.mob-meny-soc-listm {
+    margin-top: 48px;
+    display: flex;
     gap: 56px;
-
-    align-items: center;
 }
 
-.mobail-soc-item {
+.mob-meny-soc-item {
     width: 40px;
     height: 40px;
 }
 
-.mobail-soc-link {
+.mob-meny-soc-link {
     width: 100%;
     height: 100%;
     background-color: var(--accent-color);
@@ -899,11 +911,17 @@ body.body-hidden{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.mobail-soc-icon {
-    fill: var(--primary-background-color);
+.mob-meny-link:hover,
+.mob-meny-link:focus {
+    background-color: #404BBF;
 }
 
-.mobail-soc-link:hover,
-.mobail-soc-link:focus {
+.mob-meny-soc-icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--primary-background-color);
+}
+.mob-meny-soc-icon:hover,
+.mob-meny-soc-icon:focus{
     background-color: #404BBF;
 }

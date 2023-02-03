@@ -1,8 +1,10 @@
 
 @media screen and (min-width: 320px) {
     .container {
-        max-width: 450px;
+        max-width: 428px;
         width: 100%;
+        margin-left: auto;
+            margin-right: auto;
        
     }
 
@@ -20,11 +22,12 @@
         background-color: transparent;
         padding: 0;
         line-height: 0;
+
             
     }
 
     .icon-burger{
-        fill: #2E2F42;
+        stroke: #2E2F42;
 
     }
 /*=========================HERO ======================*/
@@ -137,14 +140,112 @@
     }
 
     .subscribe-input{
-        width: 396px;
+        /* width: 396px; */
         margin-bottom: 24px;
     }
     
 }    
 @media screen and (min-width: 320px) and (max-width: 479px){
-.modality {
+/*================modal================= */
+    .modality {
         width: 95%;
+        height: 95%;
+        padding: 14px 15px 10px;
+        min-height:460px;
+        
+    }
+
+    .modality-close{
+        margin-bottom: 12px;
+    }
+
+    .modal-title {
+        margin-bottom: 6px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .input-text {
+        font-size: 10px;
+        line-height: 1.1;
+    }
+
+    .modal-input {
+        height: 20px;
+    }
+
+    .input-icon{
+        width: 12px;
+        height: 16px;
+    }
+
+    .modal-comment{
+        height:50px;
+        font-size: 10px;
+        line-height: 1.1;
+    }
+    .modal-field{
+        margin-bottom: 4px;
+    }
+    .check-text{
+        font-size: 10px;
+        line-height: 1.1;
+        margin-bottom: 5px;
+    }
+
+     .button-send{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 8px 16px;
+    }
+
+    .backdrop > .modality{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+/*==========meny-burger ==================*/
+   
+    .mob-meny{
+        padding: 20px 0 20px 0;
+    }
+
+    .mob-meny-list{
+        gap: 12px;
+    }
+
+    .mob-meny-item{
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .mob-meny-tel{
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .mob-meny-mail {
+        font-size: 16px;
+        line-height: 1.2;
+        color: #434455;
+    }
+
+    .mob-meny-soc-listm {
+        margin-top: 14px;
+        gap: 30px;
+    }
+
+    .mob-meny-soc-item {
+        width: 30px;
+        height: 30px;
+    }
+    .mob-meny-soc-icon{
+        width: 15px;
+        height: 15px;
     }
 }
 

@@ -47,6 +47,7 @@
         left: 0;
         bottom: -3.5px;
         border-radius: 2px;
+        
     }
         
     .active::after {
@@ -58,6 +59,7 @@
         left: 0;
         bottom: -3.5px;
         border-radius: 2px;
+        
         
     }
         
