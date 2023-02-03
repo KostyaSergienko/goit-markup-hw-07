@@ -134,9 +134,9 @@ body.body-hidden{
     rgba(46, 47, 66, 0.7)), url(../images/img/people_office_mobile.jpg);
     background-size: 1440px;
     background-position: center; */
-    background-size: cover;
+    /* background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
    
 
 }

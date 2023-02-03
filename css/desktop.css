@@ -26,6 +26,14 @@
         rgba(46, 47, 66, 0.7)), url(../images/img/hero.jpg);
         padding-bottom: 188px;
         padding-top: 188px;
+        text-align: center;
+        width: 1440px;
+        margin-right: auto;
+        margin-left: auto;
+        height: 600px;
+        background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
     }
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
