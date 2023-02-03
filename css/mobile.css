@@ -149,7 +149,7 @@
 /*================modal================= */
     .modality {
         width: 95%;
-        height: 95%;
+        /* height: 95%; */
         padding: 14px 15px 10px;
         min-height:460px;
         
@@ -177,7 +177,7 @@
 
     .input-icon{
         width: 12px;
-        height: 16px;
+        height: 14px;
     }
 
     .modal-comment{
