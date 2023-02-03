@@ -1,4 +1,4 @@
-/* ========модальне вікно ============*/
+/* ========модальне вікно ============ */
 .backdrop {
     position: fixed;
     top: 0;
@@ -12,7 +12,6 @@
     position: absolute;
     top: 50%;
     left: 50%;
-
     width: 408px;
     padding: 28px 30px 20px;
     min-height: 576px;

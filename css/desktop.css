@@ -121,4 +121,8 @@
   .footer-subscribe {
       margin-left: 0;
   }
+/* ===========модалка============ */
+  .modality {
+      width: 408px;
+  }
 }

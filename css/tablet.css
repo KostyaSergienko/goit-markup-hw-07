@@ -161,5 +161,8 @@
         max-width: 264px;
         margin-right: 24px;
     }
-
+/* ===========модалка============ */
+.modality {
+    width: 408px;
+}
 }
