@@ -127,7 +127,6 @@ body.body-hidden{
  .header-telefone:focus {
      color: var(--accent-color);
  }
-
 /*=========================HERO =====================*/
 .hero {
     /* background-image: linear-gradient(rgba(46, 47, 66, 0.7),
